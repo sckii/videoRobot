@@ -1,0 +1,17 @@
+{
+  "name": "robot",
+  "version": "0.0.1",
+  "description": "A simple robot",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Samuel Rodigues",
+  "license": "MIT License",
+  "dependencies": {
+    "algorithmia": "^0.3.10",
+    "readline-sync": "^1.4.10",
+    "sbd": "^1.0.18",
+    "watson-developer-cloud": "^4.0.1"
+  }
+}
