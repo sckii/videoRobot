@@ -1,3 +1,3 @@
 # Credentials
 
-Folder for APSs Keys
+Folder for APis Keys
