@@ -1,3 +1,3 @@
 # Credentials
 
-Folder for APis Keys
+Folder for APIs Keys
