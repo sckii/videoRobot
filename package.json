@@ -11,6 +11,7 @@
   "dependencies": {
     "algorithmia": "^0.3.10",
     "child_process": "^1.0.2",
+    "express": "^4.17.1",
     "gm": "^1.23.1",
     "googleapis": "^55.0.0",
     "image-downloader": "^4.0.1",

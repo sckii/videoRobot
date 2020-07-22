@@ -1,4 +1,5 @@
 const robots = {
+    youtube: require('./robots/youtube.js'),
     video: require('./robots/video.js'),
     input: require('./robots/user-input.js'),
     text: require('./robots/text.js'),
@@ -11,7 +12,7 @@ async function start () {
     await robots.text()
     await robots.image()
     await robots.video()
-
+    //await robots.youtube()
     
 }
 
