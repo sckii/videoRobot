@@ -6,3 +6,11 @@ Um robô que faz videos
 - Algorithmia
 - Google searh API
 - Cse
+
+## npm
+- image-downloader
+- googleapis
+- readline-sync
+- algorithmia
+- sbd
+- watson-developer-cloud
