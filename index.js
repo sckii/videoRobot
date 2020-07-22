@@ -1,4 +1,5 @@
 const robots = {
+    video: require('./robots/video.js'),
     input: require('./robots/user-input.js'),
     text: require('./robots/text.js'),
     image: require('./robots/image.js'),
@@ -6,12 +7,13 @@ const robots = {
 }
 
 async function start () {  
-    //robots.input()    
-    //await robots.text()
+    robots.input()    
+    await robots.text()
     await robots.image()
+    await robots.video()
 
-    //const content = robots.state.load();
-    //console.dir(content, { depth: null } )
+    
 }
+
 
 start()

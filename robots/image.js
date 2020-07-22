@@ -9,7 +9,7 @@ async function robot() {
   console.log('> [image-robot] Starting...')
   const content = state.load()
 
-  //await fetchImagesOfAllSentences(content)
+  await fetchImagesOfAllSentences(content)
   await downloadAllImages(content)
 
   state.save(content)
